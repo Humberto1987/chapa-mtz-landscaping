@@ -119,15 +119,15 @@
       </div>
 
       <div class="contact-form">
-        <form>
+        <form action="https://formspree.io/f/xzdkedgj" method="post">
           <label for="name">Name</label>
-          <input id="name" type="text" placeholder="Your full name" />
+          <input id="name" name="name" type="text" placeholder="Your full name" required />
 
           <label for="email">Email</label>
-          <input id="email" type="email" placeholder="your.email@example.com" />
+          <input id="email" name="email" type="email" placeholder="your.email@example.com" required/>
 
           <label for="message">Project details</label>
-          <textarea id="message" rows="4" placeholder="Tell us about your project..."></textarea>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us about your project..." required></textarea>
 
           <button type="submit">Send Message</button>
         </form>
