@@ -7,7 +7,6 @@ This project focuses on clean design, mobile responsiveness, accessibility, and 
 
 ## 🌿 Live Website
 https://chapamtzlandscaping.com  
-*(or your GitHub Pages link until the domain is fully connected)*
 
 ---
 
